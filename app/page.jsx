@@ -1,9 +1,10 @@
 import React from "react";
+import Board from "@/components/board";
 
 export default function Home() {
   return (
     <React.Fragment>
-      <h1>App board</h1>
+      <Board />
     </React.Fragment>
   )
 }
